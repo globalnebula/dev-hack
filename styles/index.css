@@ -1,0 +1,71 @@
+body{
+    background-color: #212121;
+    display:b
+}
+
+.mainNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Company:hover{
+    background: linear-gradient(to right, #001f3f 0%, #003366 20%, #004080 40%, #00264d 60%, #003366 80%, #001f3f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: ease-in 1.5s;
+}
+
+.box{
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(66, 117, 162);
+    color: aliceblue;
+    padding: 0.2em;
+    padding-left: 1em;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#ann{
+    
+}
+
+#msg{
+    
+}
+
+.nav{
+    color: aliceblue;
+    margin: 20px;
+    background-color:  rgb(66, 117, 162);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.Links a{
+    color: aliceblue;
+    margin: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav p{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    margin-right: 40px;
+}
