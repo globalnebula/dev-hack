@@ -14,8 +14,30 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    transition: ease-in 1.5s;
+    transition: ease-in 0.8s;
 }
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.myButton{
+    background-color:  rgb(66, 117, 162);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+}
+
+.myButton:hover{
+    background-color: white;
+    color: rgb(66, 117, 162);
+    transition: ease-in 0.3s;
+}
+
 
 .box{
     height: 30vh;
