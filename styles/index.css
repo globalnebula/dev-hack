@@ -91,3 +91,58 @@ body{
     left: 20px;
     margin-right: 40px;
 }
+ 
+@media screen and (max-width:400px) {
+    .Links{
+        display: none;
+    }
+}
+
+.nav_bar_lines{
+    display: flex;
+    margin-right: 25px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.nav_bar_lines div {
+    width: 25px;
+    height: 3px;
+    background-color:rgb(66, 117, 162);
+    margin: 5px 0;
+    transition:cubic-bezier(1, 0, 0, 1) 0.4s;
+}
+
+@media screen and (max-width:400px) {
+    .Links{
+        display: none;
+    }
+    .mainNav{
+        display: none;
+    }
+    .nav_bar_lines{
+        color:rgb(66, 117, 162);
+        margin-right: 25px;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .nav_bar_lines div {
+        width: 25px;
+        height: 3px;
+        background-color: lightcyan;
+        margin: 5px 0;
+        transition:cubic-bezier(1, 0, 0, 1) 0.4s;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .mainNav{
+        display: inline ;
+    }
+    .nav_bar_lines {
+        color: rgb(66, 117, 162);
+    }
+    .nav_bar_lines div{
+        color: rgb(66, 117, 162);
+    }  
+}
