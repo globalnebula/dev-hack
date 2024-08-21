@@ -146,3 +146,10 @@ body{
         color: rgb(66, 117, 162);
     }  
 }
+.sub{
+    font-size: 30px;
+}
+.headings{
+    font-size: 40px;
+    text-decoration: underline;
+}
